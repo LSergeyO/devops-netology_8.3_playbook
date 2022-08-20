@@ -1,0 +1,9 @@
+---
+  ubuntu:
+    hosts:
+      ubuntu:
+        ansible_connection: docker
+  centos:
+    hosts:
+      centos:
+        ansible_connection: docker
